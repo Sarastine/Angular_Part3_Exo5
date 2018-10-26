@@ -1,0 +1,21 @@
+<!--Dans le fichier html fourni, n'afficher que les 150 premiers caractères de la variable article.-->
+<!DOCTYPE html>
+<html lang="fr" ng-app="app" ng-controller="testCtrl">
+  <head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/Ex5Ang.css"></li>
+	<title>Angular Partie 3 Exercice 5</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
+	<script src="assets/js/Ex5Ang.js"></script>
+  </head>
+  <body>
+	<div class="container-fluid">
+		<h1>Angular Js</h1>
+		<h2>Partie 3 - Exercice 5</h2>
+		<div id="stoneDecoration" class="col-12">
+			{{article | limitTo : 150}}
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+body {
+	background-color: #333;
+	color: #0A0;
+}
+h1, h2 {
+	text-align: center;
+}
+#stoneDecoration {
+	border: 3px solid #0A0;
+	border-radius: 10px;
+	font-size: 1.5em;
+	text-align: center;
+	margin-top: 5px;
+}
